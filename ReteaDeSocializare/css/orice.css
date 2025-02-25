@@ -1,0 +1,85 @@
+/* Fundal general al aplicației cu un gradient subtil */
+.root {
+    -fx-background-color: linear-gradient(to right, #f3e6f5, #f9f3fc); /* Gradient pastelat de roz deschis și lila */
+}
+
+/* Fundalul tab-urilor cu o nuanță foarte deschisă de roz */
+.tab-pane {
+    -fx-background-color: #fff; /* Fundal alb pentru tab-uri */
+    -fx-border-color: #e0e0e0; /* Border subtil pentru tab-uri */
+    -fx-border-width: 1px; /* Border subțire */
+    -fx-border-radius: 5px; /* Colțuri rotunjite pentru tab-uri */
+    -fx-padding: 10px; /* Spațiere între tab-uri */
+}
+
+/* Stilizare tab-uri */
+.tab {
+    -fx-font-size: 14px; /* Font standard pentru tab-uri */
+    -fx-font-weight: bold; /* Text îngroșat pentru tab-uri */
+    -fx-text-fill: #6a4f4d; /* Text de culoare gri-roz închis */
+    -fx-background-color: transparent; /* Taburi fără fundal solid */
+    -fx-background-radius: 5px; /* Colțuri rotunjite */
+    -fx-padding: 8px 16px; /* Margini echilibrate pentru tab-uri */
+}
+
+/* Tab activ (selectat) */
+.tab:selected {
+    -fx-background-color: #e8c0d7; /* Fundal deschis roz-lila pentru tab-ul activ */
+    -fx-text-fill: #6a4f4d; /* Text în culoare închisă pe tab-ul activ */
+}
+
+/* Etichete (Label) */
+.label {
+    -fx-font-weight: bold; /* Text îngroșat */
+    -fx-text-fill: rgba(113, 51, 124, 0.93); /* Text gri-roz închis */
+    -fx-padding: 5px; /* Spațiu în jurul etichetelor */
+}
+
+/* Câmpuri de text (TextField) */
+.text-field {
+    -fx-background-color: #ffffff; /* Fundal alb pentru câmpuri de text */
+    -fx-border-color: #e0e0e0; /* Bordură gri foarte deschisă */
+    -fx-border-radius: 5px; /* Colțuri rotunjite pentru câmpurile de text */
+    -fx-padding: 8px; /* Padding standard */
+    -fx-font-size: 14px; /* Font standard pentru textul din câmpurile de text */
+}
+
+/* Efect la focus pe câmpurile de text */
+.text-field:focused {
+    -fx-border-color: #bc289e; /* Bordură roz subtilă la focus */
+    -fx-background-color: #fce0d6; /* Fundal foarte deschis roz */
+}
+
+/* Butoane (Button) */
+.button {
+    -fx-background-color: #e0c7d5; /* Fundal roz foarte deschis pentru butoane */
+    -fx-text-fill: #ac3c8c; /* Text de culoare gri-roz închis */
+    -fx-font-weight: bold; /* Text îngroșat */
+    -fx-border-radius: 5px; /* Colțuri rotunjite pentru butoane */
+}
+
+/* Efect hover pentru butoane */
+.button:hover {
+    -fx-background-color: #e18dd3; /* Schimbă fundalul la o nuanță mai închisă de roz */
+    -fx-text-fill: white; /* Text alb la hover */
+}
+
+/* ListView */
+.list-view {
+    -fx-background-color: #fff; /* Fundal alb pentru listă */
+    -fx-border-color: #e0e0e0; /* Bordură gri deschis pentru listă */
+    -fx-border-radius: 5px; /* Colțuri rotunjite pentru listă */
+    -fx-padding: 10px; /* Padding în jurul listei */
+}
+
+/* Efect hover pe elementele din listă */
+.list-view .cell:hover {
+    -fx-background-color: #fce0d6; /* Fundal foarte deschis roz pe hover */
+    -fx-text-fill: rgba(186, 136, 197, 0.71); /* Text gri-roz închis pe hover */
+}
+
+/* Placeholder în câmpurile de text */
+.text-field .text {
+    -fx-text-fill: #c6a1a0; /* Text deschis pentru placeholder */
+    -fx-font-style: italic; /* Italic pentru placeholder */
+}

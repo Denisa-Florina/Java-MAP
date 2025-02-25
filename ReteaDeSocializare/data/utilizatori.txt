@@ -1,0 +1,7 @@
+1;Pop;Alex
+2;Mihai;Negru
+3;Maria;Pecsar
+4;Denisa;Oproi
+5;Florin;Rafiliu
+6;Diana;Nergu
+7;Andra;Basaraba
