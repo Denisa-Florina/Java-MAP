@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="315.0" prefWidth="464.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.trenuri.HelloController">
+   <children>
+      <Button fx:id="OpenNewWindows" layoutX="155.0" layoutY="145.0" mnemonicParsing="false" text="Open New Client Window" onAction="#handleOpenNewWindow"/>
+   </children>
+</AnchorPane>

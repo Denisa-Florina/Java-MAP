@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="333.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.trenuri.TrenuriController">
+   <children>
+      <ListView fx:id="resultsListView" layoutX="31.0" layoutY="56.0" prefHeight="210.0" prefWidth="331.0" />
+      <Label layoutX="31.0" layoutY="31.0" text="TrainStation:" />
+      <Label layoutX="405.0" layoutY="68.0" text="From:" />
+      <ComboBox fx:id="fromComboBox" layoutX="402.0" layoutY="86.0" prefWidth="150.0" />
+      <Label layoutX="404.0" layoutY="123.0" text="To:" />
+      <ComboBox fx:id="toComboBox" layoutX="402.0" layoutY="141.0" prefWidth="150.0" />
+      <CheckBox fx:id="directRoutesOnlyCheckBox" layoutX="421.0" layoutY="182.0" mnemonicParsing="false" text="Direct Rute Only:" />
+      <Button fx:id="searchButton" layoutX="451.0" layoutY="228.0" mnemonicParsing="false" text="Search" />
+      <Label fx:id="Nother" layoutX="344.0" layoutY="300.0" prefHeight="18.0" prefWidth="255.0" text="[N] other user(s) are loking at the same route" />
+   </children>
+</AnchorPane>
